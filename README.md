@@ -1,8 +1,8 @@
-## ***React Excercises for Rookies***
+# ***React Excercises for Rookies***
 
-### **Excercise 1**:
+## **Excercise 1**:
 
-##### **Question 1**: The state is an instance of React Component Class can be defined as an object of a set of observable properties that control the behavior of the component. In other words, the State of a component is an object that holds some information that may change over the lifetime of the component ?
+### **Question 1**: What is the diffference between the React's function components and class components ?
 
 |                                 Function Components                                        |       Class Components                                                                               |
 |--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -11,7 +11,7 @@
 |   Cannot use react lifecycle methods                                                       |  Can use react lifecycle methods                                                                     |
 |   Constructor are not used                                                                 |    Constructor are used as it needs to store data                                                    |
 
-##### **Question 2**: What is the component state ?
+### **Question 2**: What is the component state ?
 
 The state is an instance of React Component Class can be defined as an object of a set of observable properties that control the behavior of the component. 
 In other words, the State of a component is an object that holds some information that may change over the lifetime of the component
