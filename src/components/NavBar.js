@@ -1,9 +1,8 @@
-import React from 'react';
 import './NavBar.css'
 
 const NavBar = (props) => {
     return (
-        <nav id='navbar'>
+      <nav id='navbar'>
         <ul>
           <a href="#"><li>Home</li></a>
           <a href="#"><li>Contact</li></a>
