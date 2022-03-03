@@ -5,7 +5,7 @@ import ClickyGame from "./ClickyGame/ClickyGame";
 const Home = (props) => {
     // Task 1
     const [time,setTime] = useState(new Date().toLocaleTimeString())
-    function componentDidMount() {
+    function componentDidMount() { // Try useEffect() instead
         setInterval(() => {
             setTime(new Date().toLocaleTimeString());
         },1000)
