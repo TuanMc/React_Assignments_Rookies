@@ -4,6 +4,7 @@ function ClickyGame() {
         // Task 2
         const [clickedTimes,setClickedTimes] = useState(0)
 
+        // reset unless click after 3s
         useEffect(() => {
             if (clickedTimes !== 0){
                 // clear clicked times
