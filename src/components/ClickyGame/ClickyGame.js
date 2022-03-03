@@ -19,13 +19,14 @@ function ClickyGame() {
     
         function clickGame(){
             setClickedTimes(clickedTimes + 1)
+            // Incorrect logic, this should be clickedTimes % 3 === 0, clickedTimes % 5 === 0, clickedTimes % 15 === 0
             if (clickedTimes === 3){
                 alert("Fizz");
             }
             else if (clickedTimes === 5) {
                 alert("Buzz");
             }
-            else if (clickedTimes === 15) {
+            else if (clickedTimes === 15) {  
                 alert("FizzBuzz");
     
                 // reset clicked 
